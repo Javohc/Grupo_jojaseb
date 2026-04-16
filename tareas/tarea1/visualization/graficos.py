@@ -3,7 +3,7 @@ import os
 
 def plot_metricas(diccionario_experimentos, ambiente, ruta):
     datos_ppo = {} # Con {} y no con [], ya que al querer solo un valor del diccionario es mas facil su implementacion
-    datos_mask = {} # Y no es necesario primero indicar la lista y luego el diccionario
+    datos_mask = {} # Y no es necesario primero indicar la lista y luego el diccionario. No dara erorr, ya que el main lo llama mas de una vez para generar cada grafico
 
     for experimentos, datos in diccionario_experimentos.items():
         if datos["ambiente"] == ambiente and datos["ruta"] == ruta:
