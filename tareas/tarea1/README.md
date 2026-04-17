@@ -9,15 +9,16 @@ La carpeta está organizada de la siguiente manera:
 ```text
 tarea1/
 ├── main.py            # Script principal de ejecución
-├── data/              # Datos de paper y generacion de señales
+├── data/
 │   └── __init__.py 
-    └── robot_data.py        
-├── processing/        # Calculos de ecuaciones
+    └── robot_data.py  # Datos de paper y generacion de señales      
+├── processing/
 │   └── __init__.py
-    └── metricas.py         
-└── visualization/     # Generacion de figuras para visualizacion de datos
+    └── metricas.py    # Calculos de ecuaciones
+    └── cinematica.py  # Modelo cinematico     
+└── visualization/
     └── __init__.py
-    └── graficos.py
+    └── graficos.py    # Generacion de figuras para visualizacion de datos
 ```
 
 ## Notas de aprendizaje en el desarrollo
